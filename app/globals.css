@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s step-end infinite;
+}
+.vertical-timeline-element-content {
+  box-shadow: 0 3px 0 #ddd;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08),
+    0 3px 0 4px rgba(0, 0, 0, 0.05);
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline--two-columns .vertical-timeline-element-content {
+    margin-left: 0;
+    padding: 1.5em;
+    width: 44%;
+  }
+
+  .vertical-timeline--two-columns .vertical-timeline-element-content::before {
+    top: 24px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: #f3f4f6;
+  }
+}
