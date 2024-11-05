@@ -30,10 +30,12 @@ export default function About() {
           <span className="font-medium">我除了喜歡設計</span>
           也喜歡探索新技術。 我<span className="underline">熱愛</span>
           最終找到問題解決方案的感覺。 我的具備技能有
-          <span className="font-medium">Photoshop、Illustrator、CapCut </span>。
-          也正在努力鑽研網頁技術。
           <span className="font-medium">
-            我目前正在尋找一個全職工作能夠發揮我的所長。
+            Photoshop、Illustrator、Blender、CapCut{" "}
+          </span>
+          。 也正在努力鑽研網頁技術。
+          <span className="font-medium">
+            我目前正在尋找一個全職的工作能夠發揮我的所長。
           </span>
         </p>
 

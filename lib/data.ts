@@ -31,16 +31,17 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "過去的影片剪輯",
-    description: "項目描述...",
+    title: "影片剪輯",
+    description:
+      "過去擔任小編時所做的影片剪輯主要概括產品影音說明書以及社群shorts。",
     tags: ["CapCut"],
     imageUrl: "/Snipaste_2024-09-05_03-16-14.png", // 確保這個路徑正確
   },
   {
-    title: "影像平面設計",
-    description: "項目描述...",
-    tags: ["Photoshop", "Illustrator"],
-    imageUrl: "/project2.png", // 確保這個路徑正確
+    title: "設計作品集",
+    description: "主要為工作期間以及學習過程中產生的作品，將會持續更新。",
+    tags: ["Photoshop", "Illustrator", "blender"],
+    imageUrl: "/封面.png", // 確保這個路徑正確
   },
   // 可以添加更多項目...
 ];
@@ -82,6 +83,7 @@ export const experiencesData = [
 export const skillsData = [
   "Photoshop",
   "Illustrator",
+  "BLENDER",
   "CapCut",
   "HTML",
   "CSS",
